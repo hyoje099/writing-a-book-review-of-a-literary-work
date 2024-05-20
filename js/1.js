@@ -75,7 +75,7 @@ function Question(text, choice, answer) {
  function result() {
     var quizDiv = document.getElementById('quiz');
     var per = parseInt((quiz.score * 100) / quiz.questions.length);
-    var txt = '<h1>결과</h1>' + '<h2 id="score">당신의 점수: ' + quiz.score + '/' + quiz.questions.length + '<br><br>' + per + '점' + '</h2>';
+    var txt = '<h1>서평 발표 속 퀴즈</h1>' + '<h2 id="score">당신의 점수: ' + quiz.score + '/' + quiz.questions.length + '<br><br>' + per + '점' + '</h2>';
  
     quizDiv.innerHTML = txt;
  
